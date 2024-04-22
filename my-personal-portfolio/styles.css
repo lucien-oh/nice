@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: bisque;
+  background-color: bisque;
+  justify-content: center;
+
+}
+
+.big-text {
+  box-shadow: rgb(55, 55, 55) 0px 0px 2px;
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+.social {
+  margin-bottom: 7px;
+}
+
+.social:hover {
+  color: yellow;
+  transition: 0.3s;
+}
+
+.social-icons {
+  text-align: center;
+  box-shadow: rgb(55, 55, 55);
+}
+
+.social-icons:hover {
+  color: aquamarine;
+}
